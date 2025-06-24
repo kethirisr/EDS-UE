@@ -1,0 +1,19 @@
+{
+    "title": "Hero",
+    "id": "hero",
+    "resourceType": "core/franklin/components/block/v1/block",
+    "plugins": {
+      "xwalk": {
+        "page": {
+          "template": {
+            "name": "Hero",
+            "model": "hero",
+            "classes": "centered",
+            "title": "Welcome to Our Site",
+            "image": "https://example.com/hero.jpg"
+          }
+        }
+      }
+    }
+  }
+  
