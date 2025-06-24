@@ -1,0 +1,29 @@
+{
+  "id": "hero",
+  "fields": [
+    {
+      "component": "select",
+      "name": "classes",
+      "label": "Hero Style",
+      "valueType": "string",
+      "options": [
+        { "name": "Default", "value": "centered" },
+        { "name": "Centered", "value": "centered" },
+        { "name": "Image Left", "value": "image-left" },
+        { "name": "Image Right", "value": "image-right" }
+      ]
+    },
+    {
+      "component": "text",
+      "name": "title",
+      "label": "Headline",
+      "valueType": "string"
+    },
+    {
+      "component": "image",
+      "name": "image",
+      "label": "Hero Image",
+      "valueType": "string"
+    }
+  ]
+}
